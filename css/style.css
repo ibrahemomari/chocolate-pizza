@@ -6,14 +6,21 @@ body
 {
     padding: 15px;
     overflow-x: hidden;
+    
 }
 
+header
+{
+    
 
+    
+}
 #navContainer #leftSide  h3
 {
     font-family: 'Pacifico', cursive;
     font-size: 20px;
     font-weight: bold;
+    margin-top: -5px;
 }
 #navContainer #leftSide h6
 {
@@ -164,10 +171,13 @@ footer
     font-size: 20px;
     font-weight: bold;
     text-transform: capitalize;
+    margin-top: -20px;
+ 
 }
 #p2
 {
     font-weight: bold;
+    margin-top: -10px;
 }
 footer div table
 {
@@ -187,12 +197,13 @@ footer div table td:nth-child(1),footer div table td:nth-child(3)
 
 #btn{
 	background-color:#b5990e;
+	
 	border:1px solid #b5990e;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	
+	font-size:17px;
 	padding:16px 31px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #b5990e;
@@ -201,6 +212,5 @@ footer div table td:nth-child(1),footer div table td:nth-child(3)
 	background-color:#b5990e;
 }
 #btn {
-	position:relative;
-	top:1px;
+	margin-top: -80px;
 }
